@@ -1,4 +1,4 @@
-names=['dark','shadow']; 
+names=['Sameer','Ibtesam','Fakhir','Rushan','Hussain']; 
 for(i=0; i<names.length; i++)
 {
     console.log(names[i]);
