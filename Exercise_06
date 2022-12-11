@@ -1,0 +1,5 @@
+famousPerson ="\tAlbert \nEinstein"
+
+console.log(famousPerson);
+console.log(String(famousPerson).replace('\n','','all'));
+console.log(String(famousPerson).replace('\t',''));
