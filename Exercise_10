@@ -1,0 +1,3 @@
+/* This is the Exerise no:10 */
+favoriteNumber = 2; // This line stores the number in a variable
+console.log("My favorite number is "+favoriteNumber+""); // Add string and number as message
