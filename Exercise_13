@@ -1,0 +1,9 @@
+fav =[
+    {type:'Bike',company:'Honda'},
+{type:'Car',company:'Audi'},
+  
+]; 
+for(i=0; i<fav.length; i++)
+{
+   console.log("I love to travel by "+fav[i].company+"\'s "+fav[i].type);
+}
