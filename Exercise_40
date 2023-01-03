@@ -1,0 +1,17 @@
+function makeAlbum(artist_name, album_title,no_tracks=0)
+{
+    if(no_tracks==0)
+    {
+    var album ={name:artist_name,
+    title:album_title
+    }
+    }else{var album ={name:artist_name,
+        title:album_title,
+    tracks:no_tracks}
+    }
+    return album;
+}
+
+console.log(makeAlbum('Sonu Nigham', 'Dewana'));
+console.log(makeAlbum('ABBA', 'Voyage'));
+console.log(makeAlbum('Gary Sandhu','Fresh',8));
