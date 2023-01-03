@@ -1,0 +1,14 @@
+function makeShirt(shirtSize, shirtMessage)
+{
+    var shirtSize='Large';
+    shirtMessage='I love JavaScript';
+    console.log('The size of the shirt will be '+shirtSize+' and ' +shirtMessage+ 'will be the message printed on it');
+    var shirtSize='Midum';
+
+    console.log('The size of the shirt will be '+shirtSize+' and ' +shirtMessage+ 'will be the message printed on it');
+    var shirtSize='XXL';
+    shirtMessage='I love JavaScript but will learn typescript too';
+    console.log('The size of the shirt will be '+shirtSize+' and ' +shirtMessage+ 'will be the message printed on it');
+}
+
+makeShirt(17, 'Never Settle');
