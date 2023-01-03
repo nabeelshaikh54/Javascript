@@ -1,0 +1,21 @@
+favorite_fruits = ['Apple', 'Grapes','Oranges'];
+
+for(i=0; i<favorite_fruits.length-1; i++)
+{
+
+if (favorite_fruits[i]=='Apple')
+{
+    console.log(' really like '+favorite_fruits[i]);
+}
+else if(favorite_fruits[i]=='Banana')
+{console.log(' really like '+favorite_fruits[i]);}
+else if (favorite_fruits[i]=='Grapes'){
+    console.log(' really like '+favorite_fruits[i]);
+}
+else if (favorite_fruits[i]=='Oranges'){
+    console.log(' really like '+favorite_fruits[i]);
+}
+else{
+    console.log('No Favorite fruite found');
+}
+}
