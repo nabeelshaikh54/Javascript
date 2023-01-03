@@ -1,0 +1,11 @@
+seeing_the_world=['USA','UK','India','Russia','UAE','Turkia','Spain','New Zealand','Australia'];
+console.log(seeing_the_world); 
+seeing_the_world_copy=seeing_the_world.slice(); 
+seeing_the_world_copy.sort();
+console.log(seeing_the_world_copy); 
+console.log(seeing_the_world); 
+console.log(seeing_the_world_copy.reverse()); 
+console.log(seeing_the_world); 
+console.log(seeing_the_world.reverse()); 
+console.log(seeing_the_world.sort()); 
+console.log(seeing_the_world.sort().reverse()); 
