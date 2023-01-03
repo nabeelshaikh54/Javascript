@@ -1,0 +1,6 @@
+function makeShirt(shirtSize, shirtMessage)
+{
+    console.log('The size of the shirt will be '+shirtSize+' and ' +shirtMessage+ 'will be the message printed on it');
+}
+
+makeShirt(15, 'Never Settle');
