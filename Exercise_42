@@ -1,0 +1,25 @@
+function showMagicians(magicians_name)
+{
+    if(magicians_name.length != 0)
+    {
+        for(var i=0; i<magicians_name.length; i++)
+        {
+            console.log(magicians_name[i]);
+        }
+
+    }
+}
+function makeGreat(magicians_name)
+{
+    if(magicians_name.length != 0)
+    {
+        for(var i=0; i<magicians_name.length; i++)
+        {
+            magicians_name[i]= magicians_name[i]+' Great Magician';
+        }
+
+    }
+}
+var names = ['Ashir', 'Zohaib','Dawood']
+makeGreat(names);
+showMagicians(names);
