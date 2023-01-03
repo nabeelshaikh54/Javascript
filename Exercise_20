@@ -1,0 +1,9 @@
+student_name = prompt("Please Enter Student Name");
+student_age = prompt("Please Enter Student Age");
+student_class = prompt("Please Enter Student Class");
+student = {
+    name: student_name,
+    age: student_age,
+    class: student_class
+};
+console.log(student);
